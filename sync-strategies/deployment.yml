@@ -14,7 +14,7 @@ spec:
         app: trivial-go-web-app
     spec:
       containers:
-      - name: webserver-simple
-        image: docker.io/kostiscodefresh/gitops-simple-app:v1.0
-        ports:
-        - containerPort: 8080
+        - name: webserver-simple
+          image: docker.io/kostiscodefresh/gitops-simple-app:v2.0
+          ports:
+            - containerPort: 8080
